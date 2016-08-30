@@ -41,3 +41,5 @@ __pycache__
 # ===[ EXCLUDES ]=== #
 !.gitkeep
 !.htaccess
+
+build.sh

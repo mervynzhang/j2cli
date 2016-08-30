@@ -1,28 +1,28 @@
 #!/usr/bin/env python
 """
-j2cli
+j2cli3
 ==========
 
 Command-line interface to [Jinja2](http://jinja.pocoo.org/docs/) for templating in shell scripts.
 
 Features:
 
-* Jinja2 templating
+* Jinja2 templating supporting python 3.x with better UTF8 support
 * Allows to use environment variables! Hello [Docker](http://www.docker.com/) :)
 * INI, YAML, JSON data sources supported
 
-Inspired by [mattrobenolt/jinja2-cli](https://github.com/mattrobenolt/jinja2-cli)
+Inspired by [kolypto/jinja2-cli](https://github.com/kolypto/jinja2-cli)
 """
 
 from setuptools import setup, find_packages
 
 setup(
-    name='j2cli',
-    version='0.3.1-0',
-    author='Mark Vartanyan',
-    author_email='kolypto@gmail.com',
+    name='j2cli3',
+    version='0.0.6-0',
+    author='Jun Jing Zhang',
+    author_email='zhangjunjing@gmail.com',
 
-    url='https://github.com/kolypto/j2cli',
+    url='https://github.com/jjzhangg/j2cli',
     license='BSD',
     description='Command-line interface to Jinja2 for templating in shell scripts.',
     long_description=__doc__,
@@ -32,7 +32,7 @@ setup(
     scripts=[],
     entry_points={
         'console_scripts': [
-            'j2 = j2cli:main',
+            'j2 = j2cli3:main',
         ]
     },
 
